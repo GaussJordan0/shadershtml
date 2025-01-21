@@ -8,3 +8,4 @@ const lenis = new Lenis({
   autoRaf: true,
   lerp: 0.05,
 });
+

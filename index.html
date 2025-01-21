@@ -7,8 +7,12 @@
     <link href="/src/index.css" rel="stylesheet" />
     <title>Document</title>
   </head>
-  <body class="overflow-x-hidden">
+  <body class="overflow-x-hidden ">
     <div class="h-[300vh]"></div>
+    <!-- <div class="h-[100vh] w-full border-2 border-black flex justify-around items-center">
+      <div class="relative"> <img class="aspect-video  opacity-0 w-[25vw] h-auto object-cover" src="image3.jpg" alt=""></div>
+      <div class="relative"> <img  class="aspect-square opacity-0  w-[25vw] h-auto object-cover" src="image2.jpg" alt=""></div>
+    </div> -->
     <div class="gallery">
       <div class="gallery-item large">
         <img src="image1.jpg" alt="Image 1">
@@ -25,9 +29,9 @@
       <div class="gallery-item medium">
         <img src="image5.jpg" alt="Image 5">
       </div>
-      <div class="gallery-item large">
+      <!-- <div class="gallery-item large">
         <img src="image1.jpg" alt="Image 6">
-      </div>
+      </div> -->
     </div>
     <h1 class="font-kingred text-black text-8xl">YES, SHADERS WITH HTML<span class="text-xl">by gaussjordan</span></h1>
     <div id="imageContainer">
@@ -35,7 +39,7 @@
       <img id="myImage" class="opacity-0" src="/image2.jpg">
     </div>
 
-    <script src="/src/main.js" defer type="module"></script>
     <canvas class="webgl"></canvas>
+    <script src="/src/main.js" defer type="module"></script>
   </body>
 </html>
